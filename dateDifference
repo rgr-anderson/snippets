@@ -1,5 +1,11 @@
 /**
  * Calculates the Difference between two timestamps
+ *
+ * @param integer $start_timestamp
+ * @param integer $end_timestamp
+ * @param integer $unit (default 0)
+ * @return string
+ * @access public
  */
 function dateDifference($start_timestamp,$end_timestamp,$unit= 0){
   $days_seconds_star= (23 * 56 * 60) + 4.091; // Star Day
